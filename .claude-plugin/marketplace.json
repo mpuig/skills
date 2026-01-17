@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "mpuig-skills",
+  "description": "Python-focused agent skills for Claude Code",
+  "owner": {
+    "name": "mpuig",
+    "email": "mpuig@example.com"
+  },
+  "plugins": [
+    {
+      "name": "mpuig-skills",
+      "description": "Python-focused agent skills for code review, commits, and more",
+      "author": {
+        "name": "mpuig"
+      },
+      "source": "./plugins/mpuig-skills",
+      "category": "productivity"
+    }
+  ]
+}

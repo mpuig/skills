@@ -1,0 +1,7 @@
+{
+  "name": "mpuig-skills",
+  "description": "Python-focused agent skills for code review, commits, and more",
+  "author": {
+    "name": "mpuig"
+  }
+}

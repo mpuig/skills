@@ -1,0 +1,60 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(file:*)",
+      "Bash(find:*)",
+      "Bash(head:*)",
+      "Bash(ls:*)",
+      "Bash(pwd:*)",
+      "Bash(stat:*)",
+      "Bash(tail:*)",
+      "Bash(tree:*)",
+      "Bash(wc:*)",
+
+      "Bash(git branch:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git remote:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(git show:*)",
+      "Bash(git stash list:*)",
+      "Bash(git status:*)",
+      "Bash(git tag:*)",
+
+      "Bash(gh issue list:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh pr checks:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(gh pr list:*)",
+      "Bash(gh pr view:*)",
+      "Bash(gh repo view:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run logs:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh api:*)",
+
+      "Skill(mpuig-skills:agents-md)",
+      "Skill(mpuig-skills:claude-settings-audit)",
+      "Skill(mpuig-skills:code-review)",
+      "Skill(mpuig-skills:commit)",
+      "Skill(mpuig-skills:create-pr)",
+      "Skill(mpuig-skills:find-bugs)",
+      "Skill(mpuig-skills:iterate-pr)",
+
+      "WebFetch(domain:agentskills.io)",
+      "WebFetch(domain:cli.github.com)",
+      "WebFetch(domain:docs.anthropic.com)",
+      "WebFetch(domain:docs.djangoproject.com)",
+      "WebFetch(domain:docs.github.com)",
+      "WebFetch(domain:docs.pydantic.dev)",
+      "WebFetch(domain:docs.pytest.org)",
+      "WebFetch(domain:docs.python.org)",
+      "WebFetch(domain:fastapi.tiangolo.com)",
+      "WebFetch(domain:flask.palletsprojects.com)",
+      "WebFetch(domain:modelcontextprotocol.io)"
+    ],
+    "deny": []
+  },
+  "enableAllProjectMcpServers": true
+}
